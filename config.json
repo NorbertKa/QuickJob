@@ -1,0 +1,9 @@
+{
+    "Port" : 3000,
+    "Redis" : {
+        "Port" : 6379,
+        "Host" : "localhost",
+        "Password" : "",
+        "DB" : 0
+    }
+}
