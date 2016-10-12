@@ -30,9 +30,7 @@ func main() {
 	k++
 	k++
 	fmt.Println(k)
-	ct.Foreground(ct.Green, true)
 	fmt.Println("### QuickJobs")
-	ct.Foreground(ct.White, false)
 	setup := preSetup()
 	redisConnection := database.NewRedisConn(setup.Config)
 	check, err := validators.Validate(redisConnection, setup.Config)
