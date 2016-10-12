@@ -1,4 +1,4 @@
-package validator
+package validators
 
 import multierror "github.com/hashicorp/go-multierror"
 
