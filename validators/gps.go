@@ -9,6 +9,7 @@ import (
 type GPS struct {
 	X float32
 	Y float32
+	Z float33
 }
 
 func (g GPS) Validate() (bool, error) {
