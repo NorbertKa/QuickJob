@@ -26,10 +26,6 @@ func preSetup() *SetupConfig {
 }
 
 func main() {
-	var k int
-	k++
-	k++
-	fmt.Println(k)
 	fmt.Println("### QuickJobs")
 	setup := preSetup()
 	redisConnection := database.NewRedisConn(setup.Config)
